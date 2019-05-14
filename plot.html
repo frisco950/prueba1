@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href= {{cdn_css | safe}}   type="text/css" />
+        
+        
+          
+<script type="text/javascript" src= {{cdn_js | safe}}></script>
+         
+<div class="about">
+    <h1>Predicción de los niveles de NO2</h1>
+    <p> En la estación de Santa Margarita</p>
+    <p> En A Coruña, Galicia, España </p>
+</div>
+{{script1 | safe}} 
+{{div1 | safe }} 
+{% endblock %}
